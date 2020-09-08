@@ -59,4 +59,3 @@ void error (lua_State *L, const char *fmt, ...) {
   lua_close(L);
   exit(EXIT_FAILURE);
 }
-© 2020 GitHub, Inc.
