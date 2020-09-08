@@ -18,7 +18,7 @@ int main(int argc, const char* argv[]){
   luaL_openlibs(L);
 
   // carrega o arquivo e executa suas as ações
-  luaL_dofile(L, "02-variaveis.lua");
+  luaL_dofile(L, "variaveis.lua");
 
   double valor = f(L, 10, 20);
 
